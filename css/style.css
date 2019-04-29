@@ -138,5 +138,6 @@ body {
 	border-radius: 50%;
 }
 .feature {
+	margin-right: 5px;
 	width: 200px;
 }

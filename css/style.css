@@ -235,3 +235,62 @@ body {
 .table-element span {
 	font-size: 4.5em;
 }
+
+
+/*SECTION 5*/
+
+.section-4 {
+	display: flex;
+	color: #fff;
+	background: url(../images/section-4/bg.jpg) no-repeat center;
+	height: 120vh;
+	min-height: 600px;
+	background-size: cover;
+}
+.text-4 {
+	width: 86%;
+	margin-left: 7% ;
+	color: #fff;
+}
+.text-4 h4{
+	margin-top: 10em;
+	text-transform: uppercase;
+}
+.text-4 p{
+	margin: 0;
+}
+.smartphone {
+	margin-left: auto;
+	margin-right: 7%;
+}
+.smartphone img {
+	margin-top: 5em;
+	height: 60%;
+	width: auto;
+}
+.table-answer {
+	display: flex;
+	flex-flow: column;
+	justify-content: space
+}
+.table-subanswer-1 {
+	background-color: #11749e;
+	width: 30%;
+	color: #fff;
+	padding: 5px;
+}
+.table-subanswer-2 {
+	background-color: #11749e;
+	width: 35%;
+	color: #fff;
+	padding: 5px;
+}
+.table-subanswer-3 {
+	background-color: #11749e;
+	width: 40%;
+	color: #fff;
+	padding: 5px;
+}
+.section-4 .text-4 .about {
+	width: 50%;
+}

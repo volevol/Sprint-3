@@ -6,7 +6,7 @@ body {
 	margin: 0;
 }
 
-/*SECTION 2*/
+/*SECTION 1*/
 
 .section-1 {
 	color: #f4f7f9;
@@ -92,9 +92,9 @@ body {
 	font-size: 0.7em;
 }
 
-/*SECTION 2*/
+/*SECTION 2-1*/
 
-.section-2 {
+.section-2-1 {
 	background-color: #11749e;
 	height: 80vh;
 	min-height: 600px;
@@ -140,4 +140,73 @@ body {
 .feature {
 	margin-right: 5px;
 	width: 200px;
+}
+
+/*.section-2-2 {
+	height: 110vh;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+.horizontal {
+	direction: flex;
+
+	justify-content: center;
+	flex-flow: row stretch;
+}*/
+
+.section-3 {
+	width: 86%;
+	margin-left: 7%;
+	background-color: #fff;
+	height: 80vh;
+	min-height: 600px;
+}
+.main-text-all-3 {
+	text-align: center;
+}
+.main-text-all-3 h1 {
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 15em;
+	color: #e2e2e2;
+}
+.main-text-all-3 p {
+	font-size: 2em;
+	font-weight: bold;	
+	text-transform: uppercase;
+	margin: -5em;
+	color: #000;
+}
+.blogers {
+	margin-top: 5em;
+	font-size: 0.8em;
+	color: #000;
+	margin-left: 7%;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	width: 86%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bloger h4 {
+	color: #11749e;
+	margin: 3.3em 0 0 0;
+	text-transform: uppercase;
+}
+.bloger span img {
+	height: 5%;
+	width: auto;
+}
+.bloger {
+	margin-right: 5px;
+	width: 200px;
+}
+.submain-text-all {
+	text-align: center;
+	margin-top: 16em;
 }

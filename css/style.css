@@ -5,8 +5,11 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 }
+
+/*SECTION 2*/
+
 .section-1 {
-	color: #fff;
+	color: #f4f7f9;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -40,7 +43,7 @@ body {
 	color: #fff;
 	text-decoration: none;
 }
-.main-text {
+.section-1 .main-text {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -50,12 +53,12 @@ body {
 	text-align: center;
 
 }
-.main-text h1 {
+.section-1 .main-text h1 {
 	font-size: 8em;
 	display: inline-block;
 	margin: -1em;
 }
-.main-text span {
+.section-1 .main-text span {
 	font-weight: bold;
 	font-size: 1.3em;
 	letter-spacing: 15px;
@@ -76,7 +79,7 @@ body {
 	font-size: 2em;
 	text-align: center;
 	color: #fff;
-	border: 1px solid white;
+	border: 1px solid #f4f7f9;
 	border-radius: 50%;
 	margin: 0;
 	padding: 0;
@@ -87,4 +90,53 @@ body {
 }
 .arrow-text {
 	font-size: 0.7em;
+}
+
+/*SECTION 2*/
+
+.section-2 {
+	background-color: #11749e;
+	height: 80vh;
+	min-height: 600px;
+}
+.main-text-all {
+	text-align: center;
+}
+.main-text-all h1 {
+	margin: 0;
+	font-size: 15em;
+	color: #5993b2;
+}
+.main-text-all p {
+	font-size: 2em;
+	font-weight: bold;	
+	text-transform: uppercase;
+	margin: -5em;
+	color: #f4f7f9;
+}
+.features {
+	margin-top: 25em;
+	font-size: 0.8em;
+	color: #f4f7f9;
+	margin-left: 7%;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	width: 86%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.feature h4 {
+	margin: 3.3em 0 0 0;
+	text-transform: uppercase;
+}
+.feature span {
+	font-size: 1.5em;
+	background-color: #2e85aa;
+	padding: 30px;
+	border-radius: 50%;
+}
+.feature {
+	width: 200px;
 }

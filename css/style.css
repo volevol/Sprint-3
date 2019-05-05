@@ -1,3 +1,4 @@
+
 *, *:before, *:after {
 	box-sizing: border-box;
 }
@@ -397,6 +398,7 @@ body {
 /*inputs*/
 
 .form-style-1 {
+
 	display: flex;
 	flex-flow: column nowrap;
 	margin:10px auto;
@@ -406,6 +408,7 @@ body {
 	justify-content: center;
 }
 .form-style-1 .form-style-1-1 {
+
 	display: flex;
 	flex-flow: row wrap;
 	width: 100%;
@@ -415,12 +418,14 @@ body {
 	flex-basis: 31%;
 }
 .form-style-1 li {
+
 	padding: 0;
 	display: block;
 	list-style: none;
 	margin: 2em 0 0 0;
 }
 .form-style-1 input, textarea{
+
 	background: none;
 	box-sizing: border-box;
 	border: 1px solid #fff;
@@ -429,27 +434,52 @@ body {
 .form-style-1 input:focus,
 .form-style-1 textarea:focus{
 	border: 1px solid #88D5E9;
+
 }
 .form-style-1 .field-long{
 	width: 100%;
 }
 .form-style-1 .field-textarea{
-	height: 12em;
+	height: 10em;
 }
 .form-style-1 input[type=submit]{
-	padding: 0.8em 2.2em; 
+	padding: 0.8em 2.4em; 
 	margin-left: 43%;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-transform: uppercase;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	background: #11749e;
 	border: none;
 	color: #fff;
 }
-.form-style-1 input[type="text"], input[type="email"], input[type="tel"]{
-	font-weight: bold;
+.form-style-1 input[type="text"], input[type="email"], input[type="tel"], textarea{
 	color: #fff;
 }
 
+/*MAP*/
 
+.map {
+	background: url("../images/section-6/map.gif") no-repeat center;
+	width: auto;
+	background-size: cover;
+	
+	height: 357px;
+}
+
+.footer {
+	background-color: #222;
+	color: #fff;
+	font-size: 80%;
+	padding: 2%;
+	margin: 0;
+}
+.footer {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.footer .footer-text-2 img {
+	width: 10%;
+	height: auto;
+}
 
